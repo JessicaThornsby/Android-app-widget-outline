@@ -1,0 +1,23 @@
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:minWidth="50dp"
+
+    android:minHeight="50dp"
+
+    android:updatePeriodMillis="90000000"
+
+    android:initialLayout="@layout/appwidget"
+
+    android:resizeMode="horizontal|vertical"
+
+    android:minResizeHeight="30dp"
+
+    android:minResizeWidth="30dp"
+
+    android:configure="com.jessicathornsby.androidappwidgetexample.ConfigurationWidget"
+
+
+    android:widgetCategory="home_screen">
+
+
+</appwidget-provider>
